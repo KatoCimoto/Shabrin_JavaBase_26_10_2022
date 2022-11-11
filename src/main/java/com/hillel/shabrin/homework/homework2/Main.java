@@ -5,5 +5,5 @@ public class Main {
         double firstC = 50.4267847;
         double secondC = 30.5632400;
         System.out.println(firstC + " " + secondC);
-    }1
+    }
 }
