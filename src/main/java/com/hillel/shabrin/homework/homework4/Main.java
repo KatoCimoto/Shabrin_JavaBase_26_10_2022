@@ -7,7 +7,7 @@ int b = 10;
 int c = 10;
 int volume = a * b * c;
 int length = (a * 4) + (b * 2);
-        System.out.println("ќб'Їм паралелеп≥педа = " + volume);
-        System.out.println("—умарна довжина ус≥х стор≥н = " + length);
+        System.out.println("Volume of the parallelepiped = " + volume);
+        System.out.println("Total length of all sides = " + length);
     }
 }

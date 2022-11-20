@@ -15,8 +15,8 @@ double whatMinPower = (liCount * 1.5);
 int minCount = (int) whatMinPower;
 int minPower = (minWarrior + minArcher + minRider) * minCount;
 
-        System.out.println("Загальний показник сили династії Лі = " + liPower);
-        System.out.println("Загальний показник сили династії Мінь = " + minPower);
+        System.out.println("The general indicator of Li dynasty power = " + liPower);
+        System.out.println("The general indicator of Min dynasty power = " + minPower);
 
 
 
