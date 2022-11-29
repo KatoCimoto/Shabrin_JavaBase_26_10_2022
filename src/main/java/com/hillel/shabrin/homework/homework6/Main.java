@@ -44,9 +44,8 @@ public class Main {
         scanner.nextLine();
 
         int numbPlayers = 5;
-        int countWTeam = (wolf1 + wolf2 + wolf3 + wolf4 + wolf5) / numbPlayers;
-        int countDTeam = (dog1 + dog2 + dog3 + dog4 + dog5) / numbPlayers;
-
+        double countWTeam = ((double) wolf1 + wolf2 + wolf3 + wolf4 + wolf5) / numbPlayers;
+        double countDTeam = ((double) dog1 + dog2 + dog3 + dog4 + dog5) / numbPlayers;
         if (countWTeam > countDTeam){
             System.out.println("Team " + firstTeam + " won! Score is " + countWTeam + ". Congratulations!");
         } else if (countWTeam < countDTeam) {
