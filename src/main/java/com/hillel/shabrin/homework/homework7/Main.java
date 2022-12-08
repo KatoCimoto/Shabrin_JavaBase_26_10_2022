@@ -8,7 +8,7 @@ public class Main {
         System.out.println("You need to guess a number from 0 to 10. Enter your number:");
 
         int min = 0;
-        int max = 10;
+        int max = 11;
         int random = (int) (Math.random() * (max-min));
 
         Scanner scanner = new Scanner(System.in);
