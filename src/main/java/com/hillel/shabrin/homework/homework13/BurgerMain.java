@@ -7,8 +7,5 @@ public class BurgerMain {
         Burger doubleM = new Burger("bun", "meat", "+meat", "cheese", "mayonnaise");
         Burger diet = new Burger("bun", "meat", "cheese");
 
-        classic.classic();
-        doubleM.doubleMeat();
-        diet.diet();
     }
 }
