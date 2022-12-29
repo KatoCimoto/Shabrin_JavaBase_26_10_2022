@@ -9,7 +9,7 @@ public class PersonInfo {
         PersonData keanu = new PersonData("Keanu", "Reeves", 2, 10, 1964,
                 "keanu@yahoo.com", 5553870,80.3, 135.60, 15000);
 
-        PersonData henry = new PersonData("Henry", "Cavil",5, 5,1983,
+        PersonData henry = new PersonData("Henry", "Cavill",5, 5,1983,
                 "imsuperman@yahoo.com", 5551313,100.7, 120.80,20000);
 
         PersonData anna = new PersonData("Anna", "De Armas",30,4,1988,
