@@ -4,11 +4,13 @@ public class Iphone implements Smartphones, IOS{
 
     @Override
     public void startIOS() {
-        System.out.println("Iphone start IOS system.." + "\n"
-        + "3.." + "\n"
-        + "2.." + "\n"
-        + "1.." + "\n"
-        + "WELCOME!" + "\n");
+        System.out.println("""
+                Iphone start IOS system..
+                3..
+                2..
+                1..
+                WELCOME!
+                """);
     }
 
 

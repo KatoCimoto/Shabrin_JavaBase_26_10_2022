@@ -4,12 +4,14 @@ public class Android implements Smartphones, LinusOS {
 
     @Override
     public void startLinuxOS() {
-        System.out.println("Android start LinuxOS system.." + "\n"
-                + "3.." + "\n"
-                + "2.." + "\n"
-                + "1.." + "\n"
-                + "0.5.." + "\n"
-                + "WELCOME!" + "\n");
+        System.out.println("""
+                Android start LinuxOS system..
+                3..
+                2..
+                1..
+                0.5..
+                WELCOME!
+                """);
     }
 
     @Override
