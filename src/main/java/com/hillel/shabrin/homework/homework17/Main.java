@@ -44,7 +44,7 @@ public class Main {
                     } else break;
                 }
 
-                System.out.println("Thank you for your order! Total amount: " + Drinks.getSum() + " UAH");
+                System.out.println( "\n" + "Thank you for your order! Total amount: " + Drinks.getSum() + " UAH");
                 break;
             }
 
